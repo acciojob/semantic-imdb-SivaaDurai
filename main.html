@@ -1,16 +1,93 @@
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shawshank Redemption</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
 
+        header, nav, section, aside, footer, .summary {
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+        }
+
+        nav a {
+            margin-right: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <header>
+        <h1>The Shawshank Redemption</h1>
+        <p>A timeless story of hope, friendship, and freedom.</p>
+    </header>
+
+    <nav>
+        <p>Explore the movie's actors and memorable quote:</p>
+        <a id="nav-actor" href="#actor">Actors</a>
+        <a id="nav-quote" href="#quote">Favorite Quote</a>
+    </nav>
+
+    <div class="summary">
+        <h2>Summary</h2>
+        <p>
+            The Shawshank Redemption follows Andy Dufresne, a banker who is
+            sentenced to life in prison for a crime he says he did not commit.
+            Inside Shawshank prison, he forms a close friendship with Red and
+            holds on to hope despite years of hardship.
+        </p>
+    </div>
+
+    <section id="actor">
+        <h2>Actors</h2>
+        <p><strong>Tim Robbins</strong> as Andy Dufresne</p>
+        <p><strong>Morgan Freeman</strong> as Ellis Boyd "Red" Redding</p>
+        <p><strong>Bob Gunton</strong> as Warden Samuel Norton</p>
+    </section>
+
+    <section id="quote">
+        <h2>Favorite Quote</h2>
+        <p>"Hope is a good thing, maybe the best of things, and no good thing ever dies."</p>
+    </section>
+
+    <aside>
+        <h2>Movie Information</h2>
+        <p>IMDb Rating: 9.3/10</p>
+        <p>Release Date: September 23, 1994 (United States)</p>
+    </aside>
+
+    <footer>
+        <p>Produced by: Niki Marvin</p>
+    </footer>
 
 </body>
-
 </html>
